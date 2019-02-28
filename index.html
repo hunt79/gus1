@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Your Google Fonts Script Here -->
+
+
+        <!-- External CSS Link -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+                <div class="navbar-header">
+                <!-- Button for user to collapse or uncollapse the navbar -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navLinks">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                    <a class="navbar-brand" href="#"><img src="img/logo-b.png" style="width:200px;"></a>
+                </div>
+                <ul class="nav navbar-nav" id="navLinks">
+                    <li><a href="index.html" style="color:black">Home</a></li>
+                </ul>
+                <ul class="nav navbar-nav" id="navLinks">
+                    <li><a href="about.html" style="color:black">About</a></li>
+                </ul>
+                <ul class="nav navbar-nav" id="navLinks">
+                    <li><a href="menu.html" style="color:black"> Menu</a></li>
+                </ul>
+            </nav>
+
+            <div class="slideshow-container">
+
+<div class="mySlides ">
+  <img src="img/Gus-106.0.0.jpg" style="width:100%">
+</div>
+
+<div class="mySlides ">
+  <img src="img/o.0.jpg" style="width:100%">
+</div>
+
+<div class="mySlides ">
+  <img src="img/gus_fried_chicken_fb.0.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<div class="row text-center">
+    <div class="col-sm-4"> </div>
+    <div class="col-sm-4">
+        <h1 class="tradition">Gus’s World Famous Hot & Spicy Fried Chicken</h1>
+    </div>
+    <div class="col-sm-4"></div>
+    
+
+</div>
+
+ 
+<h2 class="text-center">Contact Gus’s World Famous Fried Chicken</h2>
+<br>
+<hr>
+<h3 class="text-center">Marketing/Public Relations/Media Request</h3>
+<h4 class="text-center">Communications@gusfriedchicken.com</h4>
+<br>
+<h3 class="text-center">Donation Requests</h3>
+<h4 class="text-center">Donationrequests@gusfriedchicken.com</h4>
+
+<div class="row">
+    <div class="col-sm-12 text-center">
+<img src="img/logo-3.jpg"  style="width:300px;">
+    </div>
+</div>
+
+
+<!-- Script -->
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+    </body>
+</html>

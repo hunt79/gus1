@@ -1,0 +1,124 @@
+/* =============== Typography =============== */
+
+* {box-sizing: border-box;}
+
+h1 {
+	
+}
+
+.h2s {
+
+}
+
+h3 {
+	
+}
+
+h4 {
+	
+}
+
+h5 {
+	
+}
+
+h6 {
+	
+}
+
+p {
+	
+}
+
+
+/* =============== Navigation Styles =============== */
+
+nav {
+	
+}
+
+nav ul {
+
+}
+
+nav ul li {
+	
+}
+
+nav ul li a {
+	}
+
+.navbar {
+	background-color:#C3D2D5;
+
+}
+.navbar-nav {
+	
+}
+
+
+/* =============== Home Page Styles =============== */
+
+.reviews {
+ border:.25px solid;
+ padding:10px 10px ;
+ display:inline-block
+
+
+}
+
+/* Slideshow CSS */
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.header p{
+	font-size: 16px;
+	text-align: center;
+}
+.yeet{
+	text-align: center;
+}
+.menu li{
+	list-style-type: none;
+	font-size: 13.5px
+}
+.menu p{
+	font-size:14.5px;
+	font-style: italic;
+}
+.container{
+	background-color:#A9DBE8;
+}
+
+
